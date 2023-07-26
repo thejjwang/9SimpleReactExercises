@@ -20,7 +20,7 @@ function App() {
       {/* <StateProps /> */}
       {/* <MappingList /> */}
       {/* <BuildingForm /> */}
-      <RenderJson />
+      {/* <RenderJson /> */}
       <WorkingWithApi />
     </div>
   
