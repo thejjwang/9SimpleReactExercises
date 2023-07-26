@@ -1,0 +1,15 @@
+.helloDiv {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 188, 63);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.messageAlert {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
