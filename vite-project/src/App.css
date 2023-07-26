@@ -13,3 +13,8 @@
     margin: auto;
     justify-content: center;
 }
+.customComponentDiv {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
