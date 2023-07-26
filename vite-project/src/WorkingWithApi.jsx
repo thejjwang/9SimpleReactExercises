@@ -22,7 +22,7 @@ const WorkingWithApi = () => {
 
   
   return (
-    <div>
+    <div className="mainDiv">
       <button onClick={fetchData} className="fetchRandomBtn">Fetch Random</button>
       <CardComponent avatar={avatar}/>
     </div>

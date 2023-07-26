@@ -90,7 +90,7 @@
 }
 /* WorkingWithAPi.jsx */
 .fetchRandomBtn {
-    width: 100%; 
+    width: 20%; 
     height: 40px;
     background-color: red;
     border-radius: 10px;
@@ -104,4 +104,26 @@
   outline: none; 
   transform: translateY(2px); /* Shift the button down by 2 pixels when pressed */
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2); /* Adjust the shadow on press */
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardComponentContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgb(186, 234, 186);
+}
+.avatarCard {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    text-align: left;
 }
