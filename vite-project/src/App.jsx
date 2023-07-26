@@ -18,8 +18,10 @@ function App() {
       {/* <CapturingUserClicks /> */}
       {/* <CustomComponent /> */}
       {/* <StateProps /> */}
-        {/* <MappingList /> */}
-      <BuildingForm />
+      {/* <MappingList /> */}
+      {/* <BuildingForm /> */}
+      <RenderJson />
+      <WorkingWithApi />
     </div>
   
   )

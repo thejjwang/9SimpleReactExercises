@@ -68,3 +68,23 @@
     outline: none; 
     border-color: black; 
 }
+/* RenderJson.jsx */
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(186, 234, 186);
+    height: 400px;
+}
+.card {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
