@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import CardComponent from "./CardComponent";
 
 const WorkingWithApi = () => {
-  const [data, setData] = useState("");
+  const [avatar, setAvatar] = useState([]);
 
-  useEffect(() => {
+
     const fetchData = async () => {
       try {
         const response = await fetch(
@@ -13,25 +14,17 @@ const WorkingWithApi = () => {
           }
         );
         const data = await response.json();
-        setData(data);
+        setAvatar(data);
       } catch (error) {
         console.log(error);
       }
     };
-    fetchData();
-  }, []);
 
+  
   return (
     <div>
-      <button className="fetchRandomBtn">Fetch Random</button>
-      {/* <div className="cardContainer">
-        {things.map((thing, i) => (
-          <div className="card" key={i}>
-            <h3>{thing.setup}</h3>
-            <p>{thing.punchline}</p>
-          </div>
-        ))}
-      </div> */}
+      <button onClick={fetchData} className="fetchRandomBtn">Fetch Random</button>
+      <CardComponent avatar={avatar}/>
     </div>
   );
 };
