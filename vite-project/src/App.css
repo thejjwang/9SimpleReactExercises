@@ -6,7 +6,6 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-
 }
 .messageAlert {
     display: flex;
@@ -22,4 +21,12 @@
     display: block;
     margin: auto;
     justify-content: center;
+}
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formContainer input {
+    margin-bottom: 10px;
 }
