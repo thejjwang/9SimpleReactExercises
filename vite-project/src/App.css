@@ -127,6 +127,20 @@
     margin: 20px;
     text-align: left;
 }
+.animalContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.animal {
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* .flip-card {
     background-color: transparent;
     width: 300px;

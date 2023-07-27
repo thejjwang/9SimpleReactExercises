@@ -21,7 +21,8 @@ function App() {
       {/* <MappingList /> */}
       {/* <BuildingForm /> */}
       {/* <RenderJson /> */}
-      <WorkingWithApi />
+      <MappingCustom />
+      {/* <WorkingWithApi /> */}
     </div>
   
   )
